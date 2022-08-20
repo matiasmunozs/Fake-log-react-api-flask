@@ -17,3 +17,7 @@ class User(db.Model):
             "email": self.email,
             # do not serialize the password, its a security breach
         }
+    
+    #funcion para el endpoint del login
+    #def check_password(self, username, password_in, password):
+     #   return compare_digest(str(password_in), str(password))
